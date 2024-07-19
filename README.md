@@ -1,92 +1,73 @@
-AR Business Card Project
-Welcome to the AR Business Card project! This README will guide you through the setup and usage of the augmented reality business card using Unity and the Vuforia engine.
+AR Business Card
+This project showcases an Augmented Reality (AR) business card, which allows users to view additional information and interactive content through AR when the card is scanned using a mobile device. The project aims to enhance traditional business cards by providing an innovative and engaging way to share contact information, portfolios, and more.
 
 Table of Contents
 Introduction
 Features
-Prerequisites
 Installation
-Configuration
-Building and Running
 Usage
-Troubleshooting
+Technologies Used
+Project Structure
 Contributing
-Additional Resources
+License
+Contact
 Introduction
-This project leverages Unity and Vuforia to create an augmented reality business card. When the card is viewed through a smartphone camera with the app, it displays interactive AR content.
+The AR Business Card project leverages augmented reality technology to transform a standard business card into an interactive experience. By scanning the card with a mobile device, users can view multimedia content, access links, and interact with various elements.
 
 Features
-Display 3D models and animations on the business card.
-Integrate contact details and social media links.
-Interactive buttons to perform actions (e.g., call, email, visit website).
-Customizable AR experiences.
-Prerequisites
-Before you begin, ensure you have met the following requirements:
-
-Unity Hub installed
-Unity Editor (version 2020.3 or later recommended)
-Vuforia Engine SDK for Unity
-A webcam or smartphone for testing
+Interactive AR Content: Display 3D models, videos, images, and links on the business card.
+User-Friendly Interface: Easy-to-use mobile application for scanning and viewing AR content.
+Customizable: Easily update the AR content through a user-friendly interface or configuration file.
+Cross-Platform: Compatible with both iOS and Android devices.
 Installation
-Clone the Repository
+Prerequisites
+Node.js and npm
+Unity with AR Foundation
+Vuforia SDK (or any other AR SDK of your choice)
+Setup
+Clone the repository:
 
-sh
+bash
 Copy code
 git clone https://github.com/yourusername/ar-business-card.git
 cd ar-business-card
-Open Project in Unity
+Install dependencies:
 
-Launch Unity Hub.
-Click on Add and select the ar-business-card directory.
-Configuration
-Import Vuforia Engine
+bash
+Copy code
+npm install
+Open the Unity project located in the UnityProject folder.
 
-In Unity, go to Window > Package Manager.
-Search for "Vuforia Engine" and click Install.
-Vuforia License Key
+Configure the AR SDK (e.g., Vuforia) with your license key.
 
-Sign up and log in to the Vuforia Developer Portal.
-Create a new license key for your project.
-In Unity, go to Vuforia Configuration and paste the license key.
-Set Up AR Camera
+Build and run the Unity project on your mobile device.
 
-Delete the default Main Camera in the scene.
-Add a Vuforia > AR Camera to your scene.
-Create Image Target
-
-Add a Vuforia > Image Target to your scene.
-Set the Image Target's database and image.
-Building and Running
-Build Settings
-
-Go to File > Build Settings.
-Switch the platform to Android or iOS.
-Add your scene to the build.
-Player Settings
-
-Configure your player settings (e.g., company name, product name).
-Build and Run
-
-Connect your device.
-Click Build and Run.
 Usage
-Open the app on your device.
-Point the camera at the business card.
-Interact with the displayed AR content.
-Troubleshooting
-Ensure your Vuforia license key is correctly entered.
-Check that the Image Target database is properly configured.
-Verify that your webcam or device camera is working correctly.
+Launch the AR Business Card app on your mobile device.
+Point your device's camera at the business card.
+Interact with the augmented content displayed on the screen.
+Technologies Used
+Unity: Game development engine for building AR experiences.
+AR Foundation: Unity's AR framework for creating AR experiences.
+Vuforia SDK: AR SDK for image recognition and tracking.
+Node.js: JavaScript runtime for server-side development.
+npm: Package manager for JavaScript.
+Project Structure
+bash
+Copy code
+ar-business-card/
+│
+├── UnityProject/        # Unity project files
+│   ├── Assets/
+│   ├── Packages/
+│   ├── ProjectSettings/
+│   └── ... 
+│
+├── server/              # Backend server files
+│   ├── app.js
+│   ├── package.json
+│   └── ...
+│
+└── README.md            # Project README file
 Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-
-Additional Resources
-Vuforia Developer Portal
-Unity Documentation
-Vuforia Engine Documentation
+Contributions are welcome! Please open an issue or submit a pull request for any bugs, features, or enhancements.
