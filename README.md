@@ -9,7 +9,6 @@ This project showcases an Augmented Reality (AR) business card, which allows use
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [File Structure](#file-structure)
-- [Sample Output](#sample-output)
 - [Contributing](#contributing)
 
 ## Overview
@@ -71,8 +70,6 @@ ar-business-card/
 └── README.md            # Project README file
 ```
 
-## Sample Output
-Here you can include images or videos showcasing the AR business card in action.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any bugs, features, or enhancements.
