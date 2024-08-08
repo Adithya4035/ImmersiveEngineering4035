@@ -37,9 +37,10 @@ Welcome to **E-Contact Manager**, a simple and intuitive Windows application bui
 
 ## Videos
 
-## Demo
+<video src="Screen%20Recording%202024-08-08%20191134.mp4" controls="controls" style="max-width: 100%; height: auto;">
+   Your browser does not support the video tag.
+</video>
 
-![Screen Recording 2024-08-08 191134.mp4](Screen%20Recording%202024-08-08%20191134.mp4)
 
 
 
